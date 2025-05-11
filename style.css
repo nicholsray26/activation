@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Oxygen', sans-serif;
+  background: linear-gradient(to right, #f4f5f7, #e8ecf2);
+  color: #111;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 60px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.left {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.success-title {
+  font-family: 'Purple Purse', cursive;
+  font-size: 3em;
+  color: #5c2d91;
+  margin-bottom: 20px;
+}
+
+.main-text,
+.sub-text,
+.section-title {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+  margin: 15px 0;
+}
+
+.button {
+  font-family: 'Roboto', sans-serif;
+  background-color: #000;
+  color: white;
+  padding: 10px 24px;
+  font-size: 1em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 15px auto;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background-color: #333;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+  width: 100%;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  height: 2px;
+  background-color: #ccc;
+}
+
+.divider span {
+  margin: 0 15px;
+  font-size: 1.2em;
+  color: #999;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.right img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  object-fit: contain;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .left {
+    padding: 30px 20px;
+  }
+
+  .right {
+    padding: 20px;
+  }
+
+  .right img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .success-title {
+    font-size: 2.2em;
+  }
+
+  .main-text,
+  .sub-text,
+  .section-title {
+    font-size: 1.1em;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .right img {
+    max-width: 100%;
+  }
+}
