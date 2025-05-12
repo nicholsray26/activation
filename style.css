@@ -245,7 +245,7 @@ body {
   @media (max-width: 480px) {
     .popup {
     position: fixed;
-    top: 95%;
+    top: 94%;
     left: 50%;
       padding: 2px;
       gap: 12px; /* Ensure proper gap between elements */
