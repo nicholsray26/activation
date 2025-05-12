@@ -294,32 +294,3 @@ body {
     padding: 14px 28px;
   }
 }
-@media (min-width: 901px) {
-  .popup {
-    max-width: 420px;
-    padding: 16px 20px;
-    gap: 16px;
-  }
-
-  .popup img {
-    width: 72px;
-    height: 72px;
-  }
-
-  .popup-text {
-    font-size: 16px;
-  }
-
-  .popup-number {
-    font-size: 16px;
-    padding: 10px 18px;
-  }
-
-  .popup-close {
-    width: 36px;
-    height: 36px;
-    font-size: 20px;
-    top: -20px;
-    right: -20px;
-  }
-}
