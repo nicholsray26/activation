@@ -288,3 +288,9 @@ body {
   }
 }
 }
+html,
+body {
+  touch-action: manipulation;
+  -ms-touch-action: manipulation;
+  overscroll-behavior: contain;
+}
