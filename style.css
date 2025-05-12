@@ -171,7 +171,7 @@ body {
 }
   .popup {
     position: fixed;
-    top: 90%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -50%); /* Centering the popup */
     background: white;
@@ -243,6 +243,9 @@ body {
   /* Mobile responsiveness */
   @media (max-width: 480px) {
     .popup {
+    position: fixed;
+    top: 95%;
+    left: 50%;
       padding: 5px;
       gap: 12px; /* Ensure proper gap between elements */
       max-width: 280px; /* Limit the width to avoid overflow */
