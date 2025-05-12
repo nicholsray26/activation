@@ -246,7 +246,7 @@ body {
     position: fixed;
     top: 95%;
     left: 50%;
-      padding: 4px;
+      padding: 2px;
       gap: 12px; /* Ensure proper gap between elements */
       max-width: 280px; /* Limit the width to avoid overflow */
       min-width: 240px;
