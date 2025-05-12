@@ -288,3 +288,9 @@ body {
   }
 }
 }
+@media (min-width: 501px) and (max-width: 900px) {
+  .call-icon {
+    font-size: 1.2em;
+    padding: 14px 28px;
+  }
+}
