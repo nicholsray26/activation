@@ -253,8 +253,8 @@ body {
       min-width: 240px;
     }
       .popup {
-    max-width: 400px;
-    padding: 12px;
+    max-width: 600px;
+    padding: 20px;
   }
     .popup-text {
       font-size: 14px;
