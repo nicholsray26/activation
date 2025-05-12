@@ -67,6 +67,7 @@ body {
   border-radius: 6px;
   cursor: pointer;
   margin: 15px auto;
+  text-decoration: none; /* ✅ Removes underline */
   transition: background 0.3s;
 }
 
