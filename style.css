@@ -15,15 +15,15 @@ body {
 /* ---------------------------------
    Layout Container
 ----------------------------------- */
-.container {
-  max-width: 1100px;
-  margin: 60px auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background: white;
-  border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-  overflow: hidden;
+@media (max-width: 500px) {
+  .container {
+    grid-template-columns: 1fr;
+    margin: 20px auto 10px auto; /* top, right, bottom, left */
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    background: white;
+    overflow: hidden;
+  }
 }
 
 /* ---------------------------------
