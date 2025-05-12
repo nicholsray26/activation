@@ -132,54 +132,21 @@
     </div>
   </div>
 
-  <!-- Sticky Bottom Call Activation Bar -->
-  <div id="call-activation-bar" style="
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    padding: 10px 12px;
-    display: inline-flex;
-    align-items: center;
-    font-family: Arial, sans-serif;
-    z-index: 9999;
-  ">
-    <img src="logo.png" alt="TV Icon" style="
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-right: 10px;
-    ">
-
-    <div style="display: flex; align-items: center; gap: 10px;">
-      <span style="font-weight: 600; font-size: 1rem;">Call Device Activation</span>
-      <a href="tel:+18779062591" style="text-decoration: none;">
-        <button style="
-          background-color: #007bc7;
-          color: white;
-          border: none;
-          padding: 8px 14px;
-          font-size: 0.9rem;
-          border-radius: 5px;
-          cursor: pointer;
-        ">+1 877-906-2591</button>
-      </a>
-    </div>
-
-    <span onclick="document.getElementById('call-activation-bar').style.display='none';" style="
-      position: absolute;
-      top: 6px;
-      right: 10px;
-      font-size: 16px;
-      font-weight: bold;
-      color: #777;
-      cursor: pointer;
-    ">&times;</span>
+<!-- Popup -->
+<div class="popup" id="popup" onclick="window.location.href='tel:+18779062591'">
+  <span class="popup-close" onclick="document.getElementById('popup').style.display='none'">&times;</span>
+  <img src="logo.png" alt="Agent" />
+  <div class="popup-text">
+    <div><strong>Call Device Activation</strong></div>
+    <div class="popup-number">+1 877-906-2591</div>
   </div>
+</div>
+
+<script>
+  window.onload = function () {
+    document.getElementById('popup').style.display = 'flex';
+  };
+</script>
 
 </body>
 </html>
