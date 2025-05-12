@@ -252,7 +252,10 @@ body {
       max-width: 280px; /* Limit the width to avoid overflow */
       min-width: 240px;
     }
-
+      .popup {
+    max-width: 400px;
+    padding: 12px;
+  }
     .popup-text {
       font-size: 14px;
       text-align: center;
