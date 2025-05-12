@@ -274,4 +274,17 @@ body {
       font-size: 16px;
       padding: 6px;
     }
+  
+@media (max-width: 900px) {
+  .call-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
   }
+
+  .call-icon .icon-white {
+    color: white;
+    font-size: 1.2em;
+  }
+}
+}
