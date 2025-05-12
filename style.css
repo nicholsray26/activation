@@ -254,9 +254,10 @@ body {
     }
 
       .popup {
-    max-width: 400px;
+    max-width: 380px;
     padding: 12px;
     }
+
     .popup-text {
       font-size: 14px;
       text-align: center;
