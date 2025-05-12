@@ -110,7 +110,7 @@ body {
 }
 
 .right img {
-  width: 95%;
+  width: 75%;
   height: auto;
   max-width: 400px;
   object-fit: contain;
@@ -148,7 +148,7 @@ body {
   }
 
   .right img {
-    max-width: 92%;
+    max-width: 75%;
   }
 
   #call-activation-bar {
