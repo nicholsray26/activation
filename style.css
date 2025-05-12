@@ -244,6 +244,7 @@ body {
   @media (max-width: 480px) {
     .popup {
       padding: 5px;
+      top: 95%;
       gap: 12px; /* Ensure proper gap between elements */
       max-width: 280px; /* Limit the width to avoid overflow */
       min-width: 240px;
@@ -271,6 +272,3 @@ body {
       padding: 6px;
     }
   }
-</style>
-
-
